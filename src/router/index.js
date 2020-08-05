@@ -9,6 +9,7 @@ import CustomerCreate from '@/components/CustomerCreate'
 import InvestmentList from '@/components/InvestmentList'
 import InvestmentCreate from '@/components/InvestmentCreate'
 
+
 import StockList from '@/components/StockList'
 import StockCreate from '@/components/StockCreate'
 

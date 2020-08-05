@@ -6,7 +6,7 @@
       <v-toolbar-items>
         <v-btn flat dark @click="goHome">Home</v-btn>
         <v-btn flat dark @click="viewCustomers">Customers</v-btn>
-         <v-btn flat dark @click="viewStocks">Stocks</v-btn>
+        <v-btn flat dark @click="viewStocks">Stocks</v-btn>
          <v-btn flat dark @click="viewInvestments">Investments</v-btn>
         <v-btn flat dark v-if="!authenticated"
                @click="login">Log in
@@ -59,6 +59,9 @@
       },
       viewCustomers() {
         router.push('/customer-list');
+      },
+      viewStocks() {
+        router.push('/stock-list');
       },
       viewInvestments() {
         router.push('/investment-list');
