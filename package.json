@@ -13,7 +13,7 @@
 
   
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "sweetalert2": "^8.19.0",
     "vue": "^2.5.2",
     "vue-axios": "^2.1.5",
